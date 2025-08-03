@@ -3,9 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nandik</title>
-</head>
-<body>
-    <h1>HI my name is Nandik</h1>
-</body>
+    <title>Form4</title>
+    <style>
+        table{
+            background-color: rgb(151, 211, 0);
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 5px;
+        }   
+        tr,td {
+            padding: 5px;
+        }
+        input[placeholder="Exact name as on card"]{
+            font-style: italic;
+        }
+        input[type=button]{
+            background-color: rgb(21, 61, 21);
+            color: white;
+            border-radius: 20px;
+            height: 25px; 
+            width: 90px;
+        }
+    </style>
+    <body>
+        <form>
+            <table align="center">
+                <tr>
+                    <td>Step 1: Your details</td>
+                </tr>
+                <tr>
+                    <td style="border: 2px solid white;border-radius: 5px; background-color: rgb(163, 201, 105);">Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"></td>
+                </tr>
+                <tr>
+                    <td style="border: 2px solid white;border-radius: 5px; background-color: rgb(163, 201, 105);">Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="email"></td>
+                </tr>
+                <tr>
+                    <td style="border: 2px solid white;border-radius: 5px; background-color: rgb(163, 201, 105);">Phone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Step 2: Delivery Address</td>
+                </tr>
+                <tr>
+                    <td style="border: 2px solid white;border-radius: 5px; background-color: rgb(163, 201, 105);">Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <textarea rows="5" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td  style="border: 2px solid white;border-radius: 5px; background-color: rgb(163, 201, 105);">Post Code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"></td>
+                </tr>
+                <tr>
+                    <td style="border: 2px solid white;border-radius: 5px; background-color: rgb(163, 201, 105);">Country &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Step 3: Card Details</td>
+                </tr>
+                <tr>
+                    <td style="border: 2px solid white;border-radius: 5px; background-color: rgb(163, 201, 105);">Card type<br>&nbsp;
+                    <input type="radio" name="r1"><img src="C:\Users\nandi\OneDrive\Desktop\Fintech\SEM-3\UI\FORM\VISA.jpg" height="10" width="20"> VISA &nbsp;
+                    <input type="radio" name="r1"><img src="C:\Users\nandi\OneDrive\Desktop\Fintech\SEM-3\UI\FORM\AMEX.jpg" height="12" width="20"> AmEx &nbsp;
+                    <input type="radio" name="r1"><img src="C:\Users\nandi\OneDrive\Desktop\Fintech\SEM-3\UI\FORM\Mastercard.jpg" height="12" width="20"> Mastercard</td>
+                </tr>
+                <tr>
+                    <td style="border: 2px solid white;border-radius: 5px; background-color: rgb(163, 201, 105);">Card number &nbsp;&nbsp;&nbsp;&nbsp; <input type="text"></td>
+                </tr>
+                <tr>
+                    <td style="border: 2px solid white;border-radius: 5px; background-color: rgb(163, 201, 105);">Security code&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"></td>
+                </tr>
+                <tr>
+                    <td style="border: 2px solid white;border-radius: 5px; background-color: rgb(163, 201, 105);">Name on card&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Exact name as on card"></td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="button" value="BUY IT!"></td><input type=""
+                </tr>
+            </table>
+        </form>
+    </body>
 </html>
